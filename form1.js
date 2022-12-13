@@ -61,14 +61,25 @@ function validateForm() {
     seterror("subject", "*Cannot be empty");
     returnval = false;
   }
+  var password = document.forms["myForm"]["fpass"].value;
+  if (password.length < 6) {
+    seterror("pass", "*Password should be atleast 6 characters long!");
+    returnval = false;
+  }
 
-  
-  
   return returnval;
-
 }
+
+function alerton() {
+  if (validateForm() == false) {
+    alert("check once again");
+  }
+  else{
+    alert("Submit Now")
+  }
+}
+
 function alertonload() {
   alert("Welcome to our Registeration Page");
 }
-
 
