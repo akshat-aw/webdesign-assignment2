@@ -1,0 +1,78 @@
+body{
+    
+    /* margin: 0;
+    padding: 0; */
+    padding: 100px;
+}
+
+.paragraph2{
+    background-color: rgb(165, 255, 225);
+    color: blue;
+    padding: 1rem;
+    margin: 2vw;
+    
+    
+    box-shadow: 2px 2px 20px 10px rgba(32, 32, 32, 0.2);
+
+    
+}
+#task2{
+
+    background-color: rgb(226, 241, 255);
+    padding: 30PX;
+
+
+   
+
+}
+
+.paragraph{
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 2px 2px 20px 10px rgba(32, 32, 32, 0.3);
+}
+#editor {
+    height: 100px;
+    width: 70%;
+    margin: 10px auto 0;
+    background-color: aliceblue;
+
+  }
+  
+  fieldset {
+    margin: 2px auto 15px;
+    width: 375px;
+    background-color: aliceblue;
+  }
+  
+  button {
+    width: 5ex;
+    text-align: center;
+    padding: 1px 3px;
+
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  #regbutton{
+    
+    font-size: larger;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(120, 197, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    
+  }
+  .regbutton{
+    
+    
+    padding: 10px;
+    margin: 20px;
+    
+  }

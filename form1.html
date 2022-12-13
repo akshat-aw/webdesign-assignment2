@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="form1.css">
+
+</head>
+
+<body onload="alertonload()">
+    <h1>Registration Form</h1>
+    <form aciton="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" id="age">
+            Age: <input type="text" name="fage" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="address">
+            Address : <input type="text" name="fadd" required><b><span class="formerror"> </span></b>
+        </div>
+
+        
+
+        <div class="formdesign" id="singer">
+            Favourite Singer : <input type="text" name="fsing" ><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="movie">
+            Favourite Movie : <input type="text" name="fmov" ><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="subject">
+            Favourite Subject : <input type="text" name="fsub" ><b><span class="formerror"> </span></b>
+        </div>
+
+       
+
+        
+        <input class="but"  type="submit" value="Validate">
+        <br>
+<h2>
+ After Validation click on Submit Button
+</h2>
+        
+        <a   href="submitform.html"><input class="but" type="button" value="Submit"
+            ></a><br>
+
+            
+    </form>
+
+
+</body>
+<script src="form1.js"></script>
+
+</html>
